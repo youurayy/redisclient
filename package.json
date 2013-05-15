@@ -1,0 +1,32 @@
+{
+    "author": "Juraj Vitko (ypocat.com)",
+    "name": "redisclient",
+    "description": "Lightweight wrapper for Mranney's redis lib",
+    "keywords": [ "redis", "client" ],
+    "version": "0.0.1",
+    "homepage": "http://github.com/ypocat/redisclient",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ypocat/redisclient.git"
+    },
+    "main": "lib/redisclient.js",
+    "directories": {
+        "lib": "./lib"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "clone": "*",
+        "underscore": "*",
+        "redis": "*"
+    },
+    "devDependencies": {
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url" : "https://raw.github.com/ypocat/redisclient/master/license.txt"
+        }
+    ]
+}
