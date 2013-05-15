@@ -1,6 +1,6 @@
 # redisclient
 
-a lightweight wrapper to make
+a lightweight wrapper to make the usage of mrraney's redis a rock-solid and straigforward experience
 
 ## use
 
