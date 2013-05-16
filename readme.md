@@ -1,6 +1,6 @@
 # redisclient
 
-a lightweight wrapper to make the usage of mrraney's redis a rock-solid and straigforward experience
+a lightweight wrapper around mrraney's redis lib to make it easier to adapt to backpressure
 
 ## use
 
@@ -10,8 +10,15 @@ a lightweight wrapper to make the usage of mrraney's redis a rock-solid and stra
 
     var redis = new redisclient({
         port: 22222
-        // check the source for more options
-        // these options are also passed verbatim to the redis client
+        // these options are passed verbatim to the redis client
+        // host: '127.0.0.1',
+        // port: 6379,
+        // command_queue_high_water: 10000,
+        // command_queue_low_water: 1000,
+        // enable_offline_queue: true,
+        // retry_delay: 1000,
+        // retry_backoff: 1,
+        // buffer_check_interval: 1000
     });
 
     redis.on('pause', function() {
