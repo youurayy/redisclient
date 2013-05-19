@@ -3,7 +3,7 @@
     "name": "redisclient",
     "description": "a lightweight wrapper around mrraney's redis lib to make it easier to adapt to backpressure",
     "keywords": [ "redis", "client" ],
-    "version": "0.0.4",
+    "version": "0.0.5",
     "homepage": "http://github.com/ypocat/redisclient",
     "repository": {
         "type": "git",
