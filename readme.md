@@ -9,10 +9,9 @@ a lightweight wrapper around mrraney's redis lib to make it easier to adapt to b
     var redisclient = require('redisclient');
 
     var redis = new redisclient({
-        port: 22222
-        // these options are passed verbatim to the redis client
-        // host: '127.0.0.1',
-        // port: 6379,
+        url: '127.0.0.1:22222'
+        // all these options are passed verbatim to the redis client.
+        // example defaults:
         // command_queue_high_water: 10000,
         // command_queue_low_water: 1000,
         // enable_offline_queue: true,
