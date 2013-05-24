@@ -36,7 +36,7 @@ a lightweight wrapper around mrraney's redis lib to make it easier to adapt to b
         console.log(err.stack || err);
     });
 
-    // acces to the redis lib:
+    // access to the redis lib:
     redis.redis.get('key', function(err, val) { .... });
 
     // you can also query the status at any time:
