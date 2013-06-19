@@ -2,8 +2,8 @@
     "author": "Juraj Vitko (ypocat.com)",
     "name": "redisclient",
     "description": "a lightweight wrapper around mrraney's redis lib to make it easier to adapt to backpressure",
-    "keywords": [ "redis", "client" ],
-    "version": "0.0.7",
+    "keywords": [ "redis", "client", "nutcracker", "twemproxy", "backpressure" ],
+    "version": "0.0.8",
     "homepage": "http://github.com/ypocat/redisclient",
     "repository": {
         "type": "git",
